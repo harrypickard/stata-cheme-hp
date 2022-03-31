@@ -1,0 +1,4 @@
+
+v 1.0
+d Harry Pickard, harry.pickard[at]newcastle.ac.uk
+p 'scheme-hp': my scheme for Stata
