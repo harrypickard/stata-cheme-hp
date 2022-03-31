@@ -1,0 +1,7 @@
+v 1.0
+d
+d 'scheme-hp': my scheme for Stata
+d
+d Distribution-Date: 31032022
+d
+f scheme-hp.scheme
