@@ -165,15 +165,15 @@ color background             white
 
 * Colors for grid lines and stuff
 color xyline 				red //
-color tick         			gs9
-color minortick    			gs9
-color grid                  gs9
-color major_grid            gs9
-color minor_grid            gs9
-color axisline     			gs8
-color matrix         		gs6    
-color matrixmarkline 		gs6    
-color refmarker      		gs11
+color tick         			black
+color minortick    			black
+color grid                  black
+color major_grid            black
+color minor_grid            black
+color axisline     			black
+color matrix         		black    
+color matrixmarkline 		black    
+color refmarker      		black
 color refmarkline    		black
 
 lcolor plotregion			gs8 //
@@ -235,7 +235,7 @@ yesno draw_minornl_nl_hgrid 	no
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
 
-yesno extend_axes_low       	no //
-yesno extend_axes_high      	no //
-yesno extend_axes_full_low  	no //
-yesno extend_axes_full_high 	no //
+yesno extend_axes_low       	yes //
+yesno extend_axes_high      	yes //
+yesno extend_axes_full_low  	yes //
+yesno extend_axes_full_high 	yes //
