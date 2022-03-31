@@ -176,7 +176,7 @@ color matrixmarkline 		black
 color refmarker      		black
 color refmarkline    		black
 
-lcolor plotregion			gs8 //
+color plotregion_line		black //
 color title					black //
 
 * Default colors for all other non-specified objects, first one should be 31 88 137
