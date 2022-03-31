@@ -235,7 +235,7 @@ yesno draw_minornl_nl_hgrid 	no
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
 
-yesno extend_axes_low       	no //
-yesno extend_axes_high      	no //
-yesno extend_axes_full_low  	no //
-yesno extend_axes_full_high 	no //
+yesno extend_axes_low       	yes //
+yesno extend_axes_high      	yes //
+yesno extend_axes_full_low  	yes //
+yesno extend_axes_full_high 	yes //
