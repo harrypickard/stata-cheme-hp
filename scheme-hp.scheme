@@ -176,7 +176,7 @@ color matrixmarkline 		gs6
 color refmarker      		gs11
 color refmarkline    		black
 
-color plotregion			gs8 //
+lcolor plotregion			gs8 //
 color title					black //
 
 * Default colors for all other non-specified objects, first one should be 31 88 137
@@ -235,7 +235,7 @@ yesno draw_minornl_nl_hgrid 	no
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
 
-yesno extend_axes_low       	yes //
-yesno extend_axes_high      	yes //
-yesno extend_axes_full_low  	yes //
-yesno extend_axes_full_high 	yes //
+yesno extend_axes_low       	no //
+yesno extend_axes_high      	no //
+yesno extend_axes_full_low  	no //
+yesno extend_axes_full_high 	no //
