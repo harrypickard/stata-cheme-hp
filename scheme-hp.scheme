@@ -5,7 +5,7 @@
 * MORE INFO: github page here
 * ===============================================================================
 
-#include s2color
+#include s1color
 
 * -------------------------------------------------------------------------------
 * Legend options
@@ -111,7 +111,7 @@ linewidth dots              thin
 linewidth dot_line          thin
 linewidth dot_area          thin
 linewidth dotmark           thin
-linewidth plotregion        vthin
+linewidth plotregion        med // 
 linewidth legend            vthin
 linewidth pie               vthin
 linewidth reverse_big       vthin
@@ -148,7 +148,7 @@ linewidth refline      		medthin
 symbolsize         			small
 symbolsize p       			small
 
-linepattern xyline      	shortdash 	
+linepattern xyline      	dash 	
 linepattern ci          	dash
 linepattern ci_area     	solid
 
@@ -170,7 +170,7 @@ color minortick    			black
 color grid                  black
 color major_grid            black
 color minor_grid            black
-color axisline     			black
+color axisline     			black //
 color matrix         		black    
 color matrixmarkline 		black    
 color refmarker      		black
@@ -215,11 +215,11 @@ yesno draw_major_grid       	no
 yesno draw_minor_grid       	no
 yesno draw_majornl_grid     	no
 yesno draw_minornl_grid     	no
-yesno draw_major_hgrid      	yes //
+yesno draw_major_hgrid      	no //
 yesno draw_minor_hgrid      	no
 yesno draw_majornl_hgrid    	no
 yesno draw_minornl_hgrid    	no
-yesno draw_major_vgrid      	yes //
+yesno draw_major_vgrid      	no //
 yesno draw_minor_vgrid      	no
 yesno draw_majornl_vgrid    	no
 yesno draw_minornl_vgrid    	no
@@ -239,3 +239,5 @@ yesno extend_axes_low       	yes //
 yesno extend_axes_high      	yes //
 yesno extend_axes_full_low  	yes //
 yesno extend_axes_full_high 	yes //
+
+yesno nogextend 				yes
