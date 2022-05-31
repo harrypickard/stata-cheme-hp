@@ -2,7 +2,7 @@
 * FILE: scheme-hp
 * PURPOSE: Pretty graphing scheme for Stata
 * VERSION: 1.0
-* MORE INFO: github page here
+* MORE INFO: https://github.com/harrypickard/stata-scheme-hp
 * ===============================================================================
 
 #include s1color
@@ -204,7 +204,6 @@ intensity histogram         80
 intensity ci_area    		inten30
 color ci_area               gs4%50
 color ci_arealine           gs4%0
-
 opacity   bar               50
 
 * -------------------------------------------------------------------------------
