@@ -168,8 +168,8 @@ color xyline 				red //
 color tick         			black
 color minortick    			black
 color grid                  black
-color major_grid            gs9
-color minor_grid            gs9
+color major_grid            black
+color minor_grid            black
 color axisline     			black //
 color matrix         		black    
 color matrixmarkline 		black    
@@ -215,11 +215,11 @@ yesno draw_major_grid       	no
 yesno draw_minor_grid       	no
 yesno draw_majornl_grid     	no
 yesno draw_minornl_grid     	no
-yesno draw_major_hgrid      	yes
+yesno draw_major_hgrid      	no //
 yesno draw_minor_hgrid      	no
 yesno draw_majornl_hgrid    	no
 yesno draw_minornl_hgrid    	no
-yesno draw_major_vgrid      	yes
+yesno draw_major_vgrid      	no //
 yesno draw_minor_vgrid      	no
 yesno draw_majornl_vgrid    	no
 yesno draw_minornl_vgrid    	no
@@ -235,7 +235,9 @@ yesno draw_minornl_nl_hgrid 	no
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
 
-yesno extend_axes_low       	yes
-yesno extend_axes_high      	yes
-yesno extend_axes_full_low  	yes
-yesno extend_axes_full_high 	yes
+yesno extend_axes_low       	yes //
+yesno extend_axes_high      	yes //
+yesno extend_axes_full_low  	yes //
+yesno extend_axes_full_high 	yes //
+
+yesno nogextend 				yes
