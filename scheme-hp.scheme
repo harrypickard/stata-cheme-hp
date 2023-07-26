@@ -2,7 +2,7 @@
 * FILE: scheme-hp
 * PURPOSE: Pretty graphing scheme for Stata
 * VERSION: 1.0
-* MORE INFO: https://github.com/harrypickard/stata-scheme-hp
+* MORE INFO: github page here
 * ===============================================================================
 
 #include s1color
@@ -168,8 +168,8 @@ color xyline 				red //
 color tick         			black
 color minortick    			black
 color grid                  black
-color major_grid            black
-color minor_grid            black
+color major_grid            gs9
+color minor_grid            gs9
 color axisline     			black //
 color matrix         		black    
 color matrixmarkline 		black    
@@ -204,6 +204,7 @@ intensity histogram         80
 intensity ci_area    		inten30
 color ci_area               gs4%50
 color ci_arealine           gs4%0
+
 opacity   bar               50
 
 * -------------------------------------------------------------------------------
@@ -214,11 +215,11 @@ yesno draw_major_grid       	no
 yesno draw_minor_grid       	no
 yesno draw_majornl_grid     	no
 yesno draw_minornl_grid     	no
-yesno draw_major_hgrid      	no //
+yesno draw_major_hgrid      	yes
 yesno draw_minor_hgrid      	no
 yesno draw_majornl_hgrid    	no
 yesno draw_minornl_hgrid    	no
-yesno draw_major_vgrid      	no //
+yesno draw_major_vgrid      	yes
 yesno draw_minor_vgrid      	no
 yesno draw_majornl_vgrid    	no
 yesno draw_minornl_vgrid    	no
@@ -234,9 +235,7 @@ yesno draw_minornl_nl_hgrid 	no
 yesno grid_draw_min          	yes
 yesno grid_draw_max          	yes
 
-yesno extend_axes_low       	yes //
-yesno extend_axes_high      	yes //
-yesno extend_axes_full_low  	yes //
-yesno extend_axes_full_high 	yes //
-
-yesno nogextend 				yes
+yesno extend_axes_low       	yes
+yesno extend_axes_high      	yes
+yesno extend_axes_full_low  	yes
+yesno extend_axes_full_high 	yes
